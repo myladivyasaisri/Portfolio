@@ -1,0 +1,425 @@
+/* 1. COMPREHENSIVE CYBER PLATFORM COLOR REGISTER PACKS */
+:root {
+    --bg-primary: #040814;
+    --bg-secondary: rgba(8, 14, 28, 0.85);
+    --accent: #00f0ff;
+    --accent-glow: rgba(0, 240, 255, 0.12);
+    --neon-purple: #bd00ff;
+    --text-main: #ffffff;
+    --text-muted: #94a3b8;
+    --card-border: rgba(0, 240, 255, 0.15);
+}
+
+@keyframes holographicRadarScan {
+    0% { transform: translateY(-10%) rotate(0deg); opacity: 0.2; }
+    50% { transform: translateY(5%) rotate(180deg); opacity: 0.4; }
+    100% { transform: translateY(-10%) rotate(360deg); opacity: 0.2; }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--bg-primary);
+    /* Premium High Definition Abstract Technology Grid Networking Visual Image Matrix Background Layer */
+    background-image: 
+        radial-gradient(circle at center, rgba(8, 14, 28, 0.2) 0%, var(--bg-primary) 100%),
+        url('https://unsplash.com');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: var(--text-main);
+    line-height: 1.6;
+    /* Font Reset System: Restored back cleanly to your standard premium universal font rules */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    position: relative;
+    overflow-x: hidden;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    width: 140vw;
+    height: 140vh;
+    background: radial-gradient(ellipse at center, rgba(0, 240, 255, 0.03) 0%, transparent 70%);
+    top: -20%;
+    left: -20%;
+    z-index: -1;
+    animation: holographicRadarScan 25s infinite linear;
+    pointer-events: none;
+}
+
+/* 2. GLOWING GLASSMORPHISM PLATFORM COMMAND HEADER LAYER */
+header {
+    background-color: rgba(4, 8, 20, 0.8);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    padding: 20px 8%;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--card-border);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
+}
+
+.logo {
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.logo span {
+    color: var(--accent);
+    text-shadow: 0 0 10px rgba(0, 240, 255, 0.4);
+}
+
+nav a {
+    color: var(--text-muted);
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 0.95rem;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: var(--accent);
+    text-shadow: 0 0 8px rgba(0, 240, 255, 0.6);
+}
+
+/* 3. STRUCTURAL COMMAND VIEWPORTS SECTIONS PACKS */
+section {
+    padding: 140px 8% 60px;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+section h2 {
+    font-size: 2.4rem;
+    font-weight: 800;
+    margin-bottom: 8px;
+    letter-spacing: -0.5px;
+}
+
+section h2 + p {
+    color: var(--text-muted);
+    margin-bottom: 40px;
+}
+
+/* 4. MAIN HERO COCKPIT COMMAND SECTION PLATFORM DISPLAY */
+#hero {
+    min-height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.badge {
+    background: var(--accent-glow);
+    color: var(--accent);
+    padding: 6px 16px;
+    border-radius: 30px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-bottom: 24px;
+    border: 1px solid rgba(0, 240, 255, 0.25);
+    display: inline-block;
+}
+
+#hero h1 {
+    font-size: 4rem;
+    /* Added optimal layout vertical spacing parameters to prevent boundary cuts */
+    line-height: 1.3;
+    margin-bottom: 16px;
+    font-weight: 800;
+    letter-spacing: -1px;
+    
+    /* Optimized typographic text-clipping boundary padding protection layers */
+    padding-top: 10px;
+    padding-bottom: 15px;
+    display: inline-block;
+    
+    /* Modern text gradient clipping framework systems updates tracking */
+    background-image: linear-gradient(135deg, #ffffff 40%, var(--accent) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #ffffff;
+}
+
+
+#hero h2 {
+    font-size: 2rem;
+    color: var(--accent);
+    font-weight: 600;
+    margin-bottom: 24px;
+    text-shadow: 0 0 15px rgba(0, 240, 255, 0.2);
+}
+
+#hero p {
+    max-width: 750px;
+    color: var(--text-muted);
+    font-size: 1.15rem;
+    margin-bottom: 40px;
+}
+
+/* 5. INTERACTIVE SELECTION BUTTON SYSTEMS CONTROLS */
+.btn-container {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.btn {
+    background-color: var(--accent);
+    color: #040814;
+    padding: 14px 32px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 0 25px rgba(0, 240, 255, 0.4);
+}
+
+.btn-outline {
+    background: transparent;
+    color: var(--accent);
+    border: 1px solid var(--accent);
+}
+
+.btn-outline:hover {
+    background: var(--accent-glow);
+}
+
+.social-icons a {
+    color: var(--text-muted);
+    font-size: 1.6rem;
+    transition: 0.3s;
+    margin-left: 10px;
+}
+
+.social-icons a:hover {
+    color: var(--accent);
+    transform: translateY(-2px);
+}
+
+/* 6. ADVANCED SHADOW DATA MODULES BLOCK DASHBOARD TILES */
+.education-box {
+    background-color: var(--bg-secondary);
+    border: 1px solid var(--card-border);
+    border-radius: 12px;
+    padding: 35px;
+    position: relative;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+.education-box::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4px;
+    height: 100%;
+    background: var(--accent);
+}
+
+.education-box h3 {
+    color: var(--accent);
+    font-size: 1.4rem;
+    margin-bottom: 8px;
+}
+
+.inst-title {
+    color: var(--text-main);
+    margin-bottom: 12px;
+    font-weight: 500;
+}
+
+/* GRID LAYOUT COMPONENTS: PANEL STYLING CARD ROWS */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 25px;
+}
+
+.skill-card {
+    background-color: var(--bg-secondary);
+    padding: 28px;
+    border-radius: 10px;
+    border: 1px solid var(--card-border);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+}
+
+.skill-card:hover {
+    border-color: rgba(0, 240, 255, 0.4);
+    transform: translateY(-4px);
+}
+
+.skill-card h3 {
+    font-size: 1.15rem;
+    margin-bottom: 14px;
+    color: var(--accent);
+}
+
+.skill-card p {
+    font-size: 0.95rem;
+    color: var(--text-muted);
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    gap: 30px;
+}
+
+.project-card {
+    background-color: var(--bg-secondary);
+    border-radius: 12px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid var(--card-border);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.35);
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+    border-color: var(--neon-purple);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5), 0 0 20px rgba(189, 0, 255, 0.1);
+}
+
+.project-header h3 {
+    font-size: 1.4rem;
+    margin-bottom: 14px;
+}
+
+.project-header p {
+    font-size: 0.95rem;
+    color: var(--text-muted);
+    margin-bottom: 28px;
+}
+
+.project-links a {
+    color: var(--accent);
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-right: 24px;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.project-links a:hover {
+    color: white;
+    text-shadow: 0 0 8px var(--accent);
+}
+
+/* 7. VERIFIED ENTERPRISE DUAL ROW CREDENTIALS REGISTRY PANELS */
+.certs-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.cert-card {
+    background-color: var(--bg-secondary);
+    padding: 20px 28px;
+    border-left: 4px solid var(--accent);
+    border-radius: 0 8px 8px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid var(--card-border);
+    border-right: 1px solid var(--card-border);
+    border-bottom: 1px solid var(--card-border);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.cert-card:hover {
+    background-color: rgba(30, 41, 59, 0.25);
+    transform: translateX(4px);
+}
+
+.cert-info {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.cert-info i {
+    color: #f59e0b;
+    font-size: 1.1rem;
+}
+
+.cert-info span {
+    font-weight: 500;
+    font-size: 0.98rem;
+}
+
+.view-cert-btn {
+    background: transparent;
+    color: var(--accent);
+    border: 1px solid var(--accent);
+    padding: 10px 22px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 0.85rem;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.view-cert-btn:hover {
+    background-color: var(--accent);
+    color: #040814;
+    box-shadow: 0 0 15px rgba(0, 240, 255, 0.4);
+}
+
+/* 8. MONITORING REPORT SYSTEM FOOTER STYLINGS FILTER RULES */
+footer {
+    text-align: center;
+    padding: 40px;
+    margin-top: 100px;
+    border-top: 1px solid var(--card-border);
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    background-color: rgba(4, 8, 20, 0.5);
+}
+
+@media (max-width: 992px) {
+    #hero h1 { font-size: 3.2rem; }
+    section { padding: 120px 6% 60px; }
+    header { padding: 15px 6%; }
+}
+
+@media (max-width: 768px) {
+    #hero h1 { font-size: 2.6rem; }
+    header { padding: 15px 5%; }
+    nav { display: none; }
+    section { padding: 110px 5% 60px; }
+    .cert-card { flex-direction: column; align-items: flex-start; gap: 16px; }
+    .view-cert-btn { width: 100%; text-align: center; }
+}
