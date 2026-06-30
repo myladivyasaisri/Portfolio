@@ -2,7 +2,7 @@
 
 Welcome to my personal portfolio repository! This project serves as my interactive digital hub, highlighting my journey across Web Development, Machine Learning engineering, and Cloud Computing ecosystems.
 
-🚀 **Live Link:** [https://github.io](https://github.io)
+🚀 **Live Link:** https://myladivyasaisri.github.io/Portfolio/
 
 ---
 
@@ -39,31 +39,31 @@ Welcome to my personal portfolio repository! This project serves as my interacti
 
 ### 1. CalcVerse
 - **Description:** A smart, interactive utility application designed to handle advanced mathematical calculations with a seamless interface.
-- **Links:** [Live Demo](https://github.ioCalcVerse/) | [GitHub Repository](https://github.com)
+
 
 ### 2. AI Resume Analyzer
 - **Description:** An intelligent application leveraging AI concepts to scan resumes, extract keywords, and analyze job role matches.
-- **Links:** [Live Demo](https://github.ioAi%20resume%20analyzer/) | [GitHub Repository](https://github.com)
+
 
 ### 3. Weather App
 - **Description:** A live web application fetching dynamic weather data and forecasts using real-time API integrations.
-- **Links:** [Live Demo](https://github.ioWeatherApp/) | [GitHub Repository](https://github.com)
+
 
 ### 4. Iris Flower Classification
 - **Description:** An end-to-end Machine Learning classification project mapping plant dimensions to specific iris species.
-- **Links:** [GitHub Repository](https://github.com)
+
 
 ### 5. House Price Prediction
 - **Description:** A supervised regression model designed to predict real estate pricing trends based on housing feature datasets.
-- **Links:** [GitHub Repository](https://github.com)
+
 
 ### 6. Movie Recommendation System
 - **Description:** A data-driven filtration and recommendation system serving up movie choices tailored to user content affinity.
-- **Links:** [GitHub Repository](https://github.com)
+
 
 ### 7. Image Classification with CNN
 - **Description:** A deep learning project implementing Convolutional Neural Networks (CNN) to successfully parse and classify images.
-- **Links:** [GitHub Repository](https://github.com)
+
 
 ---
 
@@ -103,8 +103,3 @@ Welcome to my personal portfolio repository! This project serves as my interacti
 
 ---
 
-## 🤝 Connect With Me
-
-- **📧 Email:** [divyasaisri429@gmail.com](mailto:divyasaisri429@gmail.com)
-- **🐙 GitHub:** [github.com/myladivyasaisri](https://github.com/myladivyasaisri)
-- **💼 LinkedIn:** [://linkedin.com](https://linkedin.com)
