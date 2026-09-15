@@ -14,7 +14,7 @@ Welcome to my personal portfolio repository! This project serves as my interacti
 
 ---
 
-## 🛠️ Skills Matrix
+## 🛠️ Skills 
 
 - **Artificial Intelligence & ML:** Machine Learning Regression, CNNs (Convolutional Neural Networks), Prompt Engineering, Generative AI, Image Classification.
 - **Web Development:** HTML5, CSS3, JavaScript, Full-Stack Web Development principles.
